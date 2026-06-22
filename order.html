@@ -13,6 +13,7 @@
         border-radius: 4px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 14px;
+        border: 2px solid #a83267;
     }
 
     .form-margin {
@@ -22,6 +23,17 @@
     label {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 17px;
+    }
+
+    button {
+        margin-top: 10px;
+        background: #a83267;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 15px;
     }
 </style>
 
@@ -59,7 +71,9 @@
             </select>
             <br><br>
             <label>Additional Notes</label> <br>
-            <textarea rows="4" cols="40" class="form-deco"></textarea>
+            <textarea rows="4" cols="40" class="form-deco"></textarea> <br><br>
+            <button type="submit"><a href="order.html">Place Order</a></button>
+            <button type="reset">Clear Form</button>
         </form>
     </div>
 </body>
