@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Order</title>
 </head>
+<style>
+    .form-deco {
+        width: 40%;
+        padding: 7px;
+        border-radius: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    .form-margin {
+        margin-left: 10%;
+    }
+
+    label {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+    }
+</style>
+
 <body>
-    
+    <h1>Buy Books</h1>
+    <hr>
+    <div class="form-margin">
+        <form action="">
+            <br>
+            <label for="name">Name </label><br>
+            <input type="text" class="form-deco" required> <br><br>
+
+            <label>Email</label> <br>
+            <input type="email" class="form-deco" required><br><br>
+
+            <label>Phone Number</label> <br>
+            <input type="tel" class="form-deco" required><br><br>
+
+            <label>Select Book</label> <br>
+            <select class="form-deco">
+                <option>Harry Potter</option>
+                <option>Atomic Habits</option>
+                <option>Rich Dad Poor Dad</option>
+                <option>The Alchemist</option>
+            </select>
+            <br><br>
+            <label>Quantity</label> <br>
+            <input type="number" min="1" value="1" class="form-deco">
+            <br><br>
+            <label>Payment Method</label> <br>
+            <select class="form-deco">
+                <option>Credit Card</option>
+                <option>Debit Card</option>
+                <option>PayPal</option>
+            </select>
+            <br><br>
+            <label>Additional Notes</label> <br>
+            <textarea rows="4" cols="40" class="form-deco"></textarea>
+        </form>
+    </div>
 </body>
+
 </html>
