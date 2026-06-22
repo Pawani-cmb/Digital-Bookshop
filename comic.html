@@ -3,9 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comics</title>
 </head>
-<body>
+
+<style>
     
+
+h1 {
+    font-family: Times New Roman, serif;
+}
+
+
+body{
+    background-color:azure;
+    font-family:Arial, sans-serif;
+}
+
+.comic-section{
+    padding:50px;
+}
+
+.comic-section h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.comic-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.comic-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.comic-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.comic-card h3{
+    margin:15px 0;
+}
+
+.comic-card p{
+    padding:0 15px;
+}
+
+.comic-card button{
+    margin-top:10px;
+    background-color: #a83267;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.comic-card button:hover{
+    background:#0056b3;
+}
+
+a{
+    text-decoration:none;
+    color: aliceblue;
+}
+</style>
+
+<body>
+
+   <center>
+    <h1>COMIC📔</h1>
+  
+   <p>Join Spider-Man as he swings through the city, battling villains and protecting innocent people from danger.</p>
+    </center>
+   <hr>
+   <section class="comic-section">
+    <h2>Popular Comics</h2>
+
+    <div class="comic-container">
+
+        <div class="comic-card">
+           <img src="assets/img/spiderman-heroic-pose-with-webs-action_1199394-72053.avif" alt="Spider-Man">
+            <h3>Spider-Man</h3>
+            <p>Author: Stan Lee</p>
+            <p>Price: $12.99</p>
+            <p>A thrilling adventure of your friendly neighborhood hero.</p>
+            <button><a href="order.html">Order Now</a></button>
+        </div>
+
+        <div class="comic-card">
+            <img src="assets/img/batman-8510026_1280.png" alt="Batman">
+            <h3>Batman</h3>
+            <p>Author: Bob Kane</p>
+            <p>Price: $15.99</p>
+            <p>Follow the Dark Knight protecting Gotham City.</p>
+             <button><a href="order.html">Order Now</a></button>
+        </div>
+
+        <div class="comic-card">
+            <img src="assets/img/dftvdso-27377a14-b6bc-4851-9956-3e1dd45c55a4.jpg" alt="Superman">
+            <h3>Superman</h3>
+            <p>Author: Jerry Siegel</p>
+            <p>Price: $13.99</p>
+            <p>The legendary hero from Krypton saves the world.</p>
+             <button><a href="order.html">Order Now</a></button>
+        </div>
+
+        <div class="comic-card">
+            <img src="assets/img/ironman-hd-j5ozcoedzjqbnaj0.jpg" alt="Iron Man">
+            <h3>Iron Man</h3>
+            <p>Author: Marvel Comics</p>
+            <p>Price: $14.99</p>
+            <p>Tony Stark's journey as the armored Avenger.</p>
+             <button><a href="order.html">Order Now</a></button>
+        </div>
+
+        <div class="comic-card">
+            <img src="assets/img/wp14843920.webp" alt="Hulk">
+            <h3>Hulk</h3>
+            <p>Author: Stan Lee</p>
+            <p>Price: $11.99</p>
+            <p>The incredible green giant faces powerful enemies.</p>
+             <button><a href="order.html">Order Now</a></button>
+        </div>
+
+        <div class="comic-card">
+            <img src="assets/img/fa92e-16909961159309-1920.webp" alt="Wonder Woman">
+            <h3>Wonder Woman</h3>
+            <p>Author: DC Comics</p>
+            <p>Price: $16.99</p>
+            <p>An Amazon warrior fighting for justice and peace.</p>
+             <button><a href="order.html">Order Now</a></button>
+        </div>
+
+    </div>
+</section>
+
+
 </body>
 </html>
