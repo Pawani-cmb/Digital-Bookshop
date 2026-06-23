@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .category-card {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .category-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .category-card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+}
+
+
+    body {
+        margin: 0;
+        
+    }
+    nav {
+        background-color: #a83267;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 20px;
+        font-weight: bold;
+    }
+
+</style>
+
 <body>
+
+    <center>
+        <nav>
+            <a href="index.html"> home</a>
+            <a href="contact.html"> contact</a>
+            <a href="category.html"> category</a>
+        </nav>
+    </center>
     
+    <h1>category</h1>
+    <br><br>
+    <div class="category-container">
+        <div class="category-card">
+            <img src="assets/img/comics.webp" alt="Spider-Man">
+            <h3><a href="comic.html">comic</a></h3>
+
+        </div>
+        <div class="category-card">
+            <img src="assets/img/romance.webp" alt="Spider-Man">
+            <h3><a href="romance.html">Romance</a></h3>
+
+        </div>
+        <div class="category-card">
+            <img src="assets/img/history.avif" alt="Spider-Man">
+            <h3><a href="history.html">History</a></h3>
+
+        </div>
+        <div class="category-card">
+            <img src="assets/img/horror-novels.jpg" alt="Spider-Man">
+            <h3><a href="horror.html">Horror</a></h3>
+
+        </div>
+
+    </div>
+
 </body>
+
 </html>
