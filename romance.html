@@ -1,11 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Romance</title>
 </head>
+<style>
+body{
+    background-color: azure;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.romance-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 40px;
+}
+
+.romance-card{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.romance-card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.romance-card h3{
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.romance-card p{
+    padding: 0 20px;
+}
+
+.romance-card button{
+    margin: 15px 0 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #a83267;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.romance-card button:hover{
+    background-color: #0056b3;
+}
+
+a{
+    text-decoration:none;
+    color: aliceblue;
+}
+</style>
+
 <body>
-    
+    <h1 align="center">Romance ❤️</h1>
+
+<p align="center">
+    Fall in love with heartwarming stories, unforgettable characters, and beautiful journeys of romance.
+</p>
+
+<hr>
+
+<h2 align="center">Popular Romance Books</h2>
+
+<div class="romance-container">
+
+    <div class="romance-card">
+        <img src="assets/img/91NO9Uv9RIL.webp" alt="Pride and Prejudice">
+        <h3>Pride and Prejudice</h3>
+        <p><strong>Author:</strong> Jane Austen</p>
+        <p><strong>Price:</strong> $12.99</p>
+        <p>A timeless love story between Elizabeth Bennet and Mr. Darcy.</p>
+        <button><a href="order.html">Order Now</a></button>
+    </div>
+
+    <div class="romance-card">
+        <img src="assets/img/nuluNOMJuahdaf9bwgSVoJRicTM.webp" alt="The Notebook">
+        <h3>The Notebook</h3>
+        <p><strong>Author:</strong> Nicholas Sparks</p>
+        <p><strong>Price:</strong> $14.99</p>
+        <p>A touching story of enduring love that survives the test of time.</p>
+        <button><a href="order.html">Order Now</a></button>
+    </div>
+
+    <div class="romance-card">
+        <img src="assets/img/82bbec152743109.63232bfd0dd1a.png" alt="Me Before You">
+        <h3>Me Before You</h3>
+        <p><strong>Author:</strong> Jojo Moyes</p>
+        <p><strong>Price:</strong> $13.99</p>
+        <p>A heartfelt romance that changes two lives forever.</p>
+        <button><a href="order.html">Order Now</a></button>
+    </div>
+
+    <div class="romance-card">
+        <img src="assets/img/aeb95b321e44ebecacd1d65970a21994.jpg" alt="It Ends With Us">
+        <h3>It Ends With Us</h3>
+        <p><strong>Author:</strong> Colleen Hoover</p>
+        <p><strong>Price:</strong> $15.99</p>
+        <p>An emotional story about love, strength, and difficult choices.</p>
+        <button><a href="order.html">Order Now</a></button>
+    </div>
+
+    <div class="romance-card">
+        <img src="assets/img/MV5BNTVkMTFiZWItOTFkOC00YTc3LWFhYzQtZTg3NzAxZjJlNTAyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="The Fault in Our Stars">
+        <h3>The Fault in Our Stars</h3>
+        <p><strong>Author:</strong> John Green</p>
+        <p><strong>Price:</strong> $11.99</p>
+        <p>A beautiful love story between two teenagers facing life's challenges.</p>
+        <<button><a href="order.html">Order Now</a></button>
+    </div>
+
+    <div class="romance-card">
+        <img src="assets/img/8145e414-3d82-4972-b661-1bc7fae90fa0.jpg" alt="Love and Gelato">
+        <h3>Love and Gelato</h3>
+        <p><strong>Author:</strong> Jenna Evans Welch</p>
+        <p><strong>Price:</strong> $10.99</p>
+        <p>A romantic adventure set in the beautiful cities of Italy.</p>
+        <button><a href="order.html">Order Now</a></button>
+    </div>
+
+</div>
 </body>
+
 </html>
